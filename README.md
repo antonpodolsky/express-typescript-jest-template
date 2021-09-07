@@ -1,6 +1,6 @@
 # express-typescript-jest-template
 
-## Install
+## Install dependencies
 ```npm i```
 
 ## Start server
