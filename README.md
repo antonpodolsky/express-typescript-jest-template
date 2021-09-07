@@ -12,4 +12,4 @@
 ## Build
 > Optional, just compiles Typescript, not needed for `start` and `test` to work
 
-```npm test```
+```npm run build```
