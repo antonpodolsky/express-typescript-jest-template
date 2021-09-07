@@ -1,6 +1,5 @@
 export default {
     "roots": [
-      //"<rootDir>/src"
       "<rootDir>"
     ],
     "testMatch": [
