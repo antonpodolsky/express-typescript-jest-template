@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc --noEmitOnError",
     "start": "ts-node-dev --respawn --transpile-only ./src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --ext .ts"
   },
   "type": "module",
   "author": "Anton Podolsky",

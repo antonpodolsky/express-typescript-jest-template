@@ -1,4 +1,3 @@
-
 import { SERVER_PORT } from './config';
 import { start } from './app';
 

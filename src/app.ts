@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 export const start = (port: number): Promise<void> => {
   const server = http.createServer(app);
 
-  return new Promise<void>((resolve, reject) => {
+  return new Promise<void>((resolve) => {
     server.listen(process.env.PORT || port, resolve);
   });
 };
